@@ -1,0 +1,49 @@
+
+body{
+  background: url("http://www.frontendfactory.es/wp-content/uploads/2015/07/safari.jpg") no-repeat center fixed;
+}
+
+h1{
+  text-align: center;
+  font-family: Arial;  
+  font-family: Georgia, Cambria, Times, "Times New Roman", serif;
+}
+#contenedor {
+  width:45cm;
+  height:40vw;
+  border:0.1vw black solid;
+  display:flex;
+  flex-wrap:wrap;
+  background-color:#2F4F4F;
+     }
+#principal{
+  height: 35vw;
+  width: 50vw;
+  border: 0.1vw solid black;
+ }
+#principal > img{
+  height: 35vw;
+  width: 50vw;
+}
+
+
+#secundarias {
+  width:35vw;
+  height:40vw;
+  
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  
+}
+#secundarias> div{
+  height: 15vw;
+  width: 11vw;
+  border:0.1vw solid black;
+}
+
+#secundarias > div >img{
+  height: 15vw;
+  width: 11vw;
+}
+
